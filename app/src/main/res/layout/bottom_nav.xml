@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottomNavBarHeight"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_nav_wechat"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/wechat_focused"
+            />
+        <TextView
+            android:id="@+id/tv_wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWeChatGreen"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/nav_display_wechat"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_nav_contacts"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/contacts_un"
+            />
+        <TextView
+            android:id="@+id/tv_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWeChatGray"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/nav_display_contacts"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_nav_discover"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_discover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/discover_un"
+            />
+        <TextView
+            android:id="@+id/tv_discover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWeChatGray"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/nav_display_discover"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_nav_me"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/me_un"
+            />
+        <TextView
+            android:id="@+id/tv_nav_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWeChatGray"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/nav_display_me"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+

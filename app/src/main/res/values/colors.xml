@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWeChatGreen">#45c01a</color>
+    <color name="colorWeChatGray">#999999</color>
+    <color name="standardWhite">#ffffff</color>
+    <color name="colorWeChatUnameFont">#3333ff</color>
+    <color name="colorWeChatDigestFont">#81706c</color>
+    <color name="colorWeChatTimeDisFont">#837b79</color>
+    <color name="colorWeChatActionBarBG">#393a3f</color>
+    <color name="standardBlack">#000000</color>
+</resources>

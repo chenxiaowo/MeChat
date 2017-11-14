@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="wechat_username_font_size">8pt</dimen>
+    <dimen name="wechat_time_font_size">6pt</dimen>
+    <dimen name="wechat_digest_font_size">6pt</dimen>
+    <dimen name="lv_divide_height">2px</dimen>
+    <dimen name="actionBarSize">65dp</dimen>
+    <dimen name="bottomNavBarHeight">55dp</dimen>
+</resources>
